@@ -15,5 +15,5 @@ def test_factorial_negative():
         factorial(-1)
 
 def test_factorial_non_integer():
-    with pytest.raises(TypeError):
+    with pytest.raises(ValueError):
         factorial(1.5)
