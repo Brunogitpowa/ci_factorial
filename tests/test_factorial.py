@@ -1,5 +1,5 @@
 import pytest
-from ci_factorial.ci_factorial.src.factorial import factorial
+from ci_factorial.src.factorial import factorial
 
 def test_factorial_0():
     assert factorial(0) == 1
